@@ -12,7 +12,7 @@ const SignUp = () => {
                 <label htmlFor="">Full Name</label>
                 <input type="text" />
                 <label htmlFor="">Email Address</label>
-                <input type="text" />
+                <input type="email" />
                 <label htmlFor="">Phone</label>
                 <input type="text" />
                 <label htmlFor="">State</label>
@@ -22,8 +22,8 @@ const SignUp = () => {
             </form>
             <button className="submitbtn">Sign Up</button>
             or
-            <button className="googlebtn">Continue with Google</button>
-            <p style={{fontSize:"1vw"}}>Do you have an account? <a href="/">Login</a></p>
+            <button className="googlebtn"><i class="fa-brands fa-google"></i> Continue with Google</button>
+            <p style={{fontSize:"1vw"}}>Do you have an account? <a href="/signin">Login</a></p>
         </div>
     </div> );
 }
