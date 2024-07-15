@@ -15,11 +15,12 @@
     padding: 1.5%;
 }
 
-.navlink button{
+.navlink button, a{
     background-color: #008334;
     color: white;
     border: 0;
     border-radius: 3px;
     padding: 5%;
     width: 80%;
+    text-decoration: none;
 }

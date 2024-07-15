@@ -7,7 +7,7 @@ const NavBar = () => {
             <li className="navlink">Services</li>
             <li className="navlink">Cases</li>
             <li className="navlink">Contact us</li>
-            <li className="navlink"><button>Sign in</button></li>
+            <li className="navlink"><button><a href="/signin">Sign in</a></button></li>
         </ul>
     </div> );
 }
