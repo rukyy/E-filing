@@ -15,7 +15,7 @@
     padding: 1.5%;
 }
 
-.navlink button, a{
+.navlink button, .navlink button a{
     background-color: #008334;
     color: white;
     border: 0;
