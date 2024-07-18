@@ -1,21 +1,22 @@
 .navlinks{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     /* border: 2px solid red; */
     list-style: none;
-    padding: 1.5    vw 0;
+    padding: 1.5  0;
 }
 
 .navlink{
     color: #008334;
     width: 100%;
     padding: 1.5%;
+    font-size: 1.5vw;
 }
 
-.navlink button, .navlink button a{
+/* .navlink button, .navlink button a{
     background-color: #008334;
     color: white;
     border: 0;
@@ -23,4 +24,76 @@
     padding: 5%;
     width: 80%;
     text-decoration: none;
+} */
+.specaialsigninbtn,.specaialsigninbtn a{
+    background-color: #008334;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 5%;
+    width: 80%;
+    text-decoration: none;
+}
+
+.specialsignupbtn {
+    background-color: white;
+    border: 1px solid #008334;
+    color: #008334;
+    border-radius: 3px;
+    padding: 5%;
+    width: 80%;
+    text-decoration: none;
+}
+.specialsignupbtn a{
+    text-decoration: none;
+    color: #008334;
+}
+
+.expand{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .navlinks{
+        display: none;
+    }
+    .collapse{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: start;
+        margin: 0% 0 0 0;
+        padding: 2%;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        list-style: none;
+        font-size: 30px;
+        /* border: 2px solid red; */
+        /* height: 100vh; */
+    }
+    .navlink{
+        font-size: 3vw;
+    }
+    .expand{
+        display: block;
+        margin-left: auto ;
+        margin: 1.5% 0 1.5% auto;
+        width: 7%;
+        /* border: 2px solid red; */
+        color: #008334;
+        background-color: white;
+        font-size: larger;
+        border: 0;
+    }
+    .specaialsigninbtn{
+        width: 20%;
+        padding: 2%;
+        font-size: 2.5vw;
+    }
+    .specialsignupbtn{
+        width: 20%;
+        padding: 2%;
+        font-size: 2.5vw;
+    }
+
 }

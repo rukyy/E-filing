@@ -4,7 +4,7 @@
     padding: 0.5% 0;
     letter-spacing: 4px;
     word-spacing: 4px;
-    font-size: 12px;
+    font-size: 2vw;
 }
 
 .background {
@@ -31,12 +31,12 @@
 }
 
 .actionbtn {
-    width: 30%;
+    width: 40%;
     background-color: #008334;
     color: white;
     border: 0;
     padding: 3%;
-    
+
     margin: 4% 0;
     border-radius: 4px;
 }
@@ -44,7 +44,40 @@
 .writeup {
     color: white;
     width: 100%;
-    font-size: 2.5vw;
-    font-weight: 400;
-    /* border: 2px solid red; */
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:900px) {
+    .background {
+        height: 70vh;
+    }
+
+    .backgroundcontent {
+        /* border: 2px solid red; */
+        width: 50%;
+    }
+
+    .writeup {
+        font-size: 2.5vw;
+        font-weight: 700;
+    }
+
+    .actionbtn {
+        width: 40%;
+        padding: 4%;
+    }
+}
+@media screen and (max-width:499px) {
+    .background{
+        height: 40vh;
+    }
+    .writeup{
+        font-size: 4vw;
+    }
+    .actionbtn{
+        width: 60%;
+        padding: 6%;
+    }
 }
