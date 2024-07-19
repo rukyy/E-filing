@@ -5,7 +5,8 @@ const SignIn = () => {
         <div className="signinscreen">
             <div className="signinpage">
                 <div className="signinheader">
-                    <h3>Sign Up</h3>
+                    <div className="profilephoto"><i class="fa-solid fa-user"></i></div>
+                    <h3>Sign In</h3>
                     <p>create an account</p>
                 </div>
                 <form action="">
@@ -17,7 +18,7 @@ const SignIn = () => {
             <button className="submitbtn">Continue with email</button>
             or
             <button className="googlebtn"><i class="fa-brands fa-google"></i> Continue with Google</button>
-            <p style={{fontSize:"1vw"}}>You don't have an account?<a href="/signup">Sign up</a></p>
+            <p style={{fontSize:"70%"}}>You don't have an account?<a href="/signup">Sign up</a></p>
             </div>
         </div>);
 }

@@ -1,4 +1,3 @@
-import MyButton from "../components/buttonstyle";
 import "../css/signupscreen.css"
 const SignUp = () => {
     return ( 
@@ -23,7 +22,7 @@ const SignUp = () => {
             <button className="submitbtn">Sign Up</button>
             or
             <button className="googlebtn"><i class="fa-brands fa-google"></i> Continue with Google</button>
-            <p style={{fontSize:"1vw"}}>Do you have an account? <a href="/signin">Login</a></p>
+            <p style={{fontSize:"80%"}}>Do you have an account? <a href="/signin">Login</a></p>
         </div>
     </div> );
 }

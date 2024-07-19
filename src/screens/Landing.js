@@ -3,7 +3,7 @@ import NavBar from "../components/navbar";
 
 const LandingPage = () => {
     return (<div className="landingpage">
-        <div style={{textAlign:"center"}} className="welcomeheader">WELCOME TO OUR WEBSITE</div>
+        <div style={{textAlign:"center"}} className="welcomeheader">FEDERAL REPUBLIC OF NIGERIA</div>
         <NavBar />
         <div className="background">
             <div className="backgroundcontent">

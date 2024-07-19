@@ -1,15 +1,19 @@
-.signupscreen{
+.signupscreen {
     background-color: #008334;
     border: 1px solid #008334;
+
     /* display: flex;
     justify-content: center;
     align-items: center; */
 
 }
-.signupheader h3, p{
+
+.signupheader h3,
+p {
     margin: 0;
 }
-.signuppage{
+
+.signuppage {
     padding: 1.5%;
     width: 50%;
     background-color: #FFFFFF;
@@ -20,37 +24,43 @@
     justify-content: space-around;
     border-radius: 15px;
 }
-.signupheader{
+
+.signupheader {
     text-align: center;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     width: 70%;
 }
-label{
+
+label {
     margin-top: 3%;
     font-size: 1vw;
 }
-input{
+
+.signuppage input {
     background-color: #F5F5F5;
     border: 0;
-    outline: none;
+    outline-color: #008334;
     font-size: 1vw;
     padding: 2% 1%;
+    line-height: 10px;
 }
 
-.submitbtn{
+.submitbtn {
     padding: 1.4%;
     width: 70%;
     background-color: #008334;
     color: #FFFFFF;
-    border:  0;
+    border: 0;
     font-size: 1vw;
-    margin-top: 3% ;
+    margin-top: 3%;
     border-radius: 5px;
 }
-.googlebtn{
+
+.googlebtn {
     width: 70%;
     font-size: 1vw;
     background-color: #FFFFFF;
@@ -58,7 +68,48 @@ input{
     padding: 1.3%;
     border-radius: 5px;
 }
-.signuppage a{
+
+.signuppage a {
     color: #008334;
     text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .signupscreen {
+        height: 100dvh;
+        background-color: #008334;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signuppage {
+        width: 90%;
+        height: 70vh;
+    }
+    .signuppage form{
+        width: 80%;
+    }
+    .signuppage label {
+        font-size: 3vw;
+        margin-top: 5%;
+    }
+
+    .signuppage input {
+        font-size: 4vw;
+        padding: 2% 0%;
+        width: 100%;
+    }
+    .submitbtn{
+        font-size: 4vw;
+        width: 80%;
+        padding: 2% 0;
+    }
+    .googlebtn{
+        font-size: 4vw;
+        color: #008334;
+        width: 80%;
+        padding: 2% 0;
+    }
 }

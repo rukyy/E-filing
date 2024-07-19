@@ -16,19 +16,19 @@ const NavBar = () => {
 
     useEffect(() =>{
         const handleClickOutside = (event)=>{
-            if(ref.current.contains(event.target)){
+            if(!ref.current.contains(event.target)){
                 if(document.getElementById("navlinks").className ==="collapse"){
                     drop()
                 }
                 }
         }
         window.addEventListener("mousedown", handleClickOutside)
-    })
+    },[])
 
 
     return ( <div className="navbar">
         <div className="logo"></div>
-        <button className="expand"  onClick={()=>{drop()}}><i className="fa-solid fa-bars"></i></button>
+        <button className="expand" disabled={disabled}  onClick={()=>{drop()}}><i className="fa-solid fa-bars"></i></button>
         <ul id="navlinks" className="navlinks" ref={ref}>
     
             <li className="navlink">Home</li>

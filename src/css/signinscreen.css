@@ -8,9 +8,20 @@
 }
 .signinheader{
     text-align: center;
+
 }
 .signinheader h3, p{
     margin: 0;
+}
+.profilephoto{
+    color: white;
+    background-color: #008334;
+    width: 90px;
+    height: 90px;
+    font-size: 64px;
+    border: 2px solid #008334;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 .signinpage{
     background-color: white;
@@ -20,9 +31,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 1.5%;
+    padding: 1.5% 1.5%; 
     border-radius: 15px;
-    height: 70%;
+    /* height: 70%; */
 }
 
 label{
@@ -30,8 +41,38 @@ label{
 }
 input{
     font-size: 1vw;
+    background-color: #F5F5F5;
+    border: 0;
+    font-size: 1vw;
+    padding: 2% 1%;
+    outline-color: #008334;
 }
 .signinpage a{
     color: #008334;
     text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    .signinscreen{
+        height: 100dvh;
+
+    }
+    .signinpage{
+        width: 90%;
+        padding: 10% 0;
+    }
+    /* .profilephoto{
+        font-size: ;
+    } */
+    .signinpage form{
+        width: 80%;
+    }
+    .signinpage label{
+        font-size: 3.5vw;
+    }
+    .signinpage input{
+        width: 100%;
+        font-size: 5vw;
+        padding: 3% 0;
+    }
 }
