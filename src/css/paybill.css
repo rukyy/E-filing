@@ -1,0 +1,77 @@
+.paybill{
+    background-color: #008334;
+    border: 2px solid #008334;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.paybillcontainer{
+    background-color: white;
+    border-radius: 12px;
+    width: 50%;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+.paybillcard{
+    background-color: rgba(0, 131, 52, 0.09);
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.paybillcontainer ul{
+    list-style: none;
+    border-radius: 5px;
+    margin: 0;
+    width: 80%;
+    height: 50%;
+    padding: 2.5% 4% 1.5% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.proceedbtn{
+    width: 100%;
+    text-align: center;
+}
+.proceedbtn p{
+    font-size: 0.8vw;
+    margin: 1.5% 0;
+}
+.proceedbtn button{
+    color: white;
+    background-color: #008334;
+    padding: 5%;
+    border: 0;
+    border-radius: 6px;
+    width: 65%;
+
+}
+
+@media screen and (max-width:600px) {
+    .paybillcontainer{
+        width: 85%;
+        height: 60%;
+
+    }
+    .paybillcard{
+        width: 70%;
+    }
+    .proceedbtn p{
+        font-size: 2vw;
+    }
+    .proceedbtn button{
+        width: 80%;
+    }
+}

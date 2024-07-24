@@ -7,7 +7,7 @@ const LandingPage = () => {
         <NavBar />
         <div className="background">
             <div className="backgroundcontent">
-                <div className="writeup">Welcome to the E-filing platform, Kindly click the button below to file your case and follow due procedure and we will get back to you shortly</div>
+                <div className="writeup">Welcome to the E-filing platform, Kindly click the button below to file your case </div>
                 <button className="actionbtn">File a Case </button>
             </div>
 
