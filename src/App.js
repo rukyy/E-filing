@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import SignUp from './screens/signupscreen';
 import SignIn from './screens/signinscreen';
 import PayBill from './screens/paybill';
+import Caseform from './screens/caseform';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path='/' element={<LandingPage/>}/>
         <Route exact path='/signup' element={<SignUp/>}/>
         <Route exact path='/signin' element={<SignIn/>}/>
+        <Route exact path='/form' element={<Caseform/>}/>
         <Route exact path='/payment' element={<PayBill/>}/>
       </Routes>
     </BrowserRouter>

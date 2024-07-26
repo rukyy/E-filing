@@ -41,8 +41,8 @@ label {
 }
 
 .signuppage input {
-    background-color: #F5F5F5;
-    border: 0;
+    background-color: white;
+    border: 1px solid #008334;
     outline-color: #008334;
     font-size: 1vw;
     padding: 2% 1%;
@@ -101,6 +101,7 @@ label {
         font-size: 4vw;
         padding: 2% 0%;
         width: 100%;
+
     }
     .submitbtn{
         font-size: 4vw;

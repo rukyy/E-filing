@@ -1,0 +1,112 @@
+.formcontainer {
+    background-color: #008334;
+    height: 100dvh;
+    border: 2px solid #008334;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+
+}
+
+
+.swiper {
+    width: 60%;
+    /* height: 100%; */
+}
+
+
+
+.pagestyl {
+    border: 2px solid green;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4%;
+    padding: 3% 0;
+
+}
+
+.pagestyl form {
+    /* border: 2px solid orange; */
+    /* display: flex; */
+    flex-direction: column;
+    margin-bottom: 5% ;
+}
+.pagestyl label{
+    /* border: 2px solid red; */
+    font-weight: 400;
+}
+.pagestyl input {
+    border: 1px solid #008334;
+    margin: 2%;
+    margin: 0;
+    font-size: 1vw;
+    outline-color: #008334;
+    outline-width: thin;
+    background-color: white;
+    padding: 2% 1%;
+    border-radius: 0;
+}
+/* select{
+    border: 2px solid red;
+    font-size: 1vw;
+    padding: 2% 1%;
+    width: 20%;
+} */
+.pagestyl form span{
+    display: flex;
+}
+.pagestyl form select{
+    outline-color: #008334;
+    border: 1px solid #008334;
+    background-color: white;
+    border-radius: 0;
+}
+option{
+    font-size: 1vw;
+}
+.specialinputs{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 0 0 0;
+}
+
+.specialinput{
+    width: 20%;
+    background-color: white;
+    border: 1px solid #008334;
+}
+
+
+
+@media screen and (max-width:650Px) {
+    .swiper{
+        width: 100%;
+    }
+    .pagestyl{
+        width: 90%;
+    }
+    .pagestyl form{
+        width: 90%;
+    }
+    .pagestyl form label{
+        font-size: 3.5vw;
+        margin-top: 6%;
+    }
+    .pagestyl input{
+        font-size: 5vw;
+        margin-bottom: 0%;
+
+    }
+    .specialinputs{
+        margin-top: 5%;
+    }
+    .specialinput{
+        width: 30%;
+    }
+}

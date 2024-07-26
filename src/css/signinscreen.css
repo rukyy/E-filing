@@ -1,4 +1,4 @@
-.signinscreen{
+.signinscreen {
     background-color: #008334;
     border: 2px solid #008334;
     height: 100vh;
@@ -6,14 +6,18 @@
     justify-content: center;
     align-items: center;
 }
-.signinheader{
+
+.signinheader {
     text-align: center;
 
 }
-.signinheader h3, p{
+
+.signinheader h3,
+p {
     margin: 0;
 }
-.profilephoto{
+
+.profilephoto {
     color: white;
     background-color: #008334;
     width: 90px;
@@ -23,7 +27,8 @@
     border-radius: 50%;
     margin: 0 auto;
 }
-.signinpage{
+
+.signinpage {
     background-color: white;
     width: 50%;
     /* margin: 0 auto; */
@@ -31,46 +36,52 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 1.5% 1.5%; 
+    padding: 1.5% 1.5%;
     border-radius: 15px;
     /* height: 70%; */
 }
 
-label{
+label {
     margin-top: 3%;
 }
-input{
+
+input {
     font-size: 1vw;
-    background-color: #F5F5F5;
-    border: 0;
+    background-color: white;
+    border: 2px solid #008334;
     font-size: 1vw;
     padding: 2% 1%;
     outline-color: #008334;
 }
-.signinpage a{
+
+.signinpage a {
     color: #008334;
     text-decoration: none;
 }
 
 @media screen and (max-width:600px) {
-    .signinscreen{
+    .signinscreen {
         height: 100dvh;
 
     }
-    .signinpage{
+
+    .signinpage {
         width: 90%;
         padding: 10% 0;
     }
+
     /* .profilephoto{
         font-size: ;
     } */
-    .signinpage form{
+    .signinpage form {
         width: 80%;
     }
-    .signinpage label{
+
+    .signinpage label {
         font-size: 3.5vw;
     }
-    .signinpage input{
+
+    .signinpage input {
         width: 100%;
         font-size: 5vw;
         padding: 3% 0;
