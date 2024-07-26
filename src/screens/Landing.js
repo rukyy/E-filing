@@ -1,5 +1,6 @@
 import "../css/landingpage.css"
 import NavBar from "../components/navbar";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
     return (<div className="landingpage">
@@ -8,7 +9,7 @@ const LandingPage = () => {
         <div className="background">
             <div className="backgroundcontent">
                 <div className="writeup">Welcome to the E-filing platform, Kindly click the button below to file your case </div>
-                <button className="actionbtn">File a Case </button>
+                <Link to={"/payment"}><button className="actionbtn">File a Case </button></Link>
             </div>
 
         </div>

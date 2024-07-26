@@ -42,7 +42,7 @@
 }
 .pagestyl input {
     border: 1px solid #008334;
-    margin: 2%;
+    /* margin: 2%; */
     margin: 0;
     font-size: 1vw;
     outline-color: #008334;
@@ -81,7 +81,15 @@ option{
     background-color: white;
     border: 1px solid #008334;
 }
-
+.casetypeselector{
+    font-size: 1v;
+    margin-top: 4% ;
+    padding: 2% 01%;
+    width: 100%;
+}
+select{
+    color: black;
+}
 
 
 @media screen and (max-width:650Px) {
@@ -108,5 +116,9 @@ option{
     }
     .specialinput{
         width: 30%;
+    }
+    .casetypeselector{
+        font-size: 4vw;
+        margin-top: 5%;
     }
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css/paybill.css"
 
 const PayBill = () => {
@@ -12,7 +13,7 @@ const PayBill = () => {
                 </ul>
                 <div className="proceedbtn">
                     <p><i className="fa-solid fa-circle-exclamation"></i>Note this is non refundable</p>
-                    <button>Proceed  to Checkout</button>
+                   <Link to={"/form"}><button>Proceed  to Checkout</button></Link> 
                 </div>
 
             </div>
