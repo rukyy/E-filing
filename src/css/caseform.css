@@ -90,6 +90,16 @@ option{
 select{
     color: black;
 }
+.submitform{
+    background-color: #008334;
+    color: white;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 120%;
+    padding: 2% 0;
+}
 
 
 @media screen and (max-width:650Px) {
@@ -121,4 +131,5 @@ select{
         font-size: 4vw;
         margin-top: 5%;
     }
+
 }

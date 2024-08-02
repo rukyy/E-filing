@@ -31,7 +31,7 @@
 }
 .backgroundcontent a{
     /* border: 2px solid red; */
-    width: 40%;
+    width: 70%;
 }
 .actionbtn {
     width: 100%;
@@ -51,20 +51,29 @@
     font-size: 5vh;
     font-weight: 600;
 }
+.landingpagebody{
+    display: flex;
+    flex-direction: column;
+    background-color: #008334;
+}
+.staffprofilecontainer{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
 
-
-@media screen and (max-width:900px) {
+@media screen and (min-width:500px ) {
     .background {
         height: 70vh;
     }
 
     .backgroundcontent {
         /* border: 2px solid red; */
-        width: 60%;
+        width: 40%;
     }
 
     .writeup {
-        font-size: 2.5vw;
+        font-size: 3vw;
         font-weight: 700;
     }
 
@@ -81,16 +90,19 @@
         height: 40vh;
     }
     .writeup{
-        font-size: 4vw;
+        font-size: 3.5vw;
         line-height: 150%;
     }
+    .backgroundcontent{
+        width: 50%;
+    }
     .backgroundcontent a{
-        width: 60%;
+        width: 50%;
     }
     .actionbtn{
         width: 100%;
         font-size: 3vw;
-        padding: 6%;
+        padding: 2% 0;
         margin: 4% 0;
     }
 }

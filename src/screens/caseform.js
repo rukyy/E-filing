@@ -113,12 +113,14 @@ const Caseform = () => {
                                     </select>
                                     <input style={{ width: "80%" }} type="numbers" />
                                 </span>
-                                <span style={{marginTop:"6%"}}>
-                                    <input style={{width:"30%", fontSize:"80%"}} placeholder="Advocate code" type="text" />
-                                    <input style={{width:"70%", fontSize:"80%"}} placeholder="Advocate" type="text" />
+                                <span style={{ marginTop: "6%" }}>
+                                    <input style={{ width: "30%", fontSize: "80%" }} placeholder="Advocate code" type="text" />
+                                    <input style={{ width: "70%", fontSize: "80%" }} placeholder="Advocate" type="text" />
                                 </span>
                             </form>
-                        </div></div>
+                            <button className="submitform">Submit</button>
+                        </div>
+                    </div>
                     {/* <div style={{backgroundColor:"white"}} class="swiper-slide">Slide 3</div> */}
                     ...
                 </div>
